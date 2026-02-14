@@ -1,0 +1,83 @@
+:root {
+    /* Primary Colors */
+    --bg-primary: #0a0e27;
+    /* Deep dark blue-black background */
+    --bg-secondary: #141b2d;
+    /* Slightly lighter panels */
+    --bg-tertiary: #1a2332;
+    /* Card backgrounds */
+    --bg-header: rgba(10, 14, 39, 0.85);
+    /* Glassmorphism header */
+
+    /* Accent Colors */
+    --accent-primary: #00ff41;
+    /* Matrix green - for completed items */
+    --accent-secondary: #00d9ff;
+    /* Cyan - for highlights and links */
+    --accent-warning: #ff6b6b;
+    /* Red - for critical items */
+    --accent-neutral: #a0aec0;
+    /* Gray - for inactive items */
+    --accent-dim: rgba(100, 116, 139, 0.5);
+
+    /* Text Colors */
+    --text-primary: #e2e8f0;
+    /* Main text */
+    --text-secondary: #94a3b8;
+    /* Secondary text */
+    --text-accent: #00ff41;
+    /* Highlighted text */
+    --text-dim: #64748b;
+    /* Dimmed text */
+    --text-inverse: #0a0e27;
+
+    /* Border & Effects */
+    --border-color: #2d3748;
+    --border-active: #00d9ff;
+    --glow-green: rgba(0, 255, 65, 0.3);
+    --glow-cyan: rgba(0, 217, 255, 0.3);
+    --glow-text: 0 0 10px rgba(0, 217, 255, 0.5);
+
+    /* Layout */
+    --header-height: 70px;
+    --sidebar-width: 280px;
+    --sidebar-right-width: 300px;
+
+    /* Typography */
+    --font-mono: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* Base Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    line-height: 1.6;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-dim);
+}
