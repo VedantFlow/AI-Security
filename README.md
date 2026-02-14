@@ -2,6 +2,9 @@
 
 A sleek, hacker-themed single-page application for tracking AI Security learning progress. Designed with a professional security terminal aesthetic.
 
+**Live Demo:** [https://aisecurityroadmap.netlify.app/](https://aisecurityroadmap.netlify.app/)
+
+
 ## Features
 
 - **Progress Tracking**: Track daily tasks, weekly modules, and milestones.
